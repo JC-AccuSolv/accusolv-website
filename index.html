@@ -121,14 +121,11 @@
       <p class="text-center mt-4">Drop your solicitation details or message us.</p>
       
       <form name="contact" method="POST" data-netlify="true" class="mt-8 space-y-6">
-        <input type="text" name="name" placeholder="Your Name / Agency" required 
-               class="w-full p-4 rounded-lg bg-white text-gray-900">
-        <input type="email" name="email" placeholder="Your Email" required 
-               class="w-full p-4 rounded-lg bg-white text-gray-900">
-        <input type="text" name="solicitation" placeholder="Solicitation Number or Brief Description" 
-               class="w-full p-4 rounded-lg bg-white text-gray-900">
-        <textarea name="message" rows="5" placeholder="Message / Requirements or attach the solicitation" 
-                  class="w-full p-4 rounded-lg bg-white text-gray-900"></textarea>
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="name" placeholder="Your Name / Agency" required class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <input type="text" name="solicitation" placeholder="Solicitation Number or Brief Description" class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <textarea name="message" rows="5" placeholder="Message / Requirements or attach the solicitation" class="w-full p-4 rounded-lg bg-white text-gray-900"></textarea>
         <button type="submit" class="w-full bg-[#C9A04C] hover:bg-amber-500 text-[#0A2540] font-bold py-4 rounded-2xl text-lg">
           Send Message → We Will Respond Within Hours
         </button>
