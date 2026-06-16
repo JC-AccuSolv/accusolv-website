@@ -119,14 +119,22 @@
     <div class="max-w-3xl mx-auto px-6">
       <h2 class="text-4xl font-bold text-center">Ready to Award with Confidence?</h2>
       <p class="text-center mt-4">Drop your solicitation details or message us.</p>
+      
       <form name="contact" method="POST" data-netlify="true" class="mt-8 space-y-6">
-        <input type="text" name="name" placeholder="Your Name / Agency" required class="w-full p-4 rounded-lg">
-        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 rounded-lg">
-        <input type="text" name="solicitation" placeholder="Solicitation Number or Brief Description" class="w-full p-4 rounded-lg">
-        <textarea name="message" rows="4" placeholder="Message / Requirements" class="w-full p-4 rounded-lg"></textarea>
-        <button type="submit" class="w-full bg-[#C9A04C] text-[#0A2540] font-bold py-4 rounded-2xl">Send Message →</button>
+        <input type="text" name="name" placeholder="Your Name / Agency" required 
+               class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <input type="email" name="email" placeholder="Your Email" required 
+               class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <input type="text" name="solicitation" placeholder="Solicitation Number or Brief Description" 
+               class="w-full p-4 rounded-lg bg-white text-gray-900">
+        <textarea name="message" rows="5" placeholder="Message / Requirements or attach the solicitation" 
+                  class="w-full p-4 rounded-lg bg-white text-gray-900"></textarea>
+        <button type="submit" class="w-full bg-[#C9A04C] hover:bg-amber-500 text-[#0A2540] font-bold py-4 rounded-2xl text-lg">
+          Send Message → We Will Respond Within Hours
+        </button>
       </form>
-      <p class="text-center mt-8">Or call Heather directly: (866) 427-2616</p>
+      
+      <p class="text-center mt-8 text-lg">Or call Heather directly: <a href="tel:8664272616" class="underline">(866) 427-2616</a></p>
     </div>
   </section>
 
